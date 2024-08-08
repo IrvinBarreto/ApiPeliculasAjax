@@ -1,0 +1,81 @@
+
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+}
+h1{
+    font-family: 'Merriweather', serif;
+}
+h2{
+    padding-top: 3rem ;
+    font-weight: bold;
+    
+}
+a{
+    text-decoration: none;
+    transition: ease-in-out .3s;
+    
+}
+a:hover{
+    color: #ff9d72;
+}
+span{
+    font-weight: bold;
+    margin-bottom: 3rem;
+    display: inline-block;
+}
+
+header{
+    background-color: #654062;
+    padding: 5rem 0;
+    color: white;
+}
+.barra-busqueda {
+    width: 80%;
+    min-height: 3rem;
+    padding: 15px;
+    border-radius: 2rem 0 0rem 2rem ;
+    border: none;
+    outline: none;
+    
+}
+
+button{
+    min-height: 3rem;
+    min-width: 5rem;    
+    padding: 15px;
+    font-weight: bold;
+    background-color: #ffd66b;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 0rem 2rem 2rem 0rem ;
+    border: none;
+    outline: none;
+    transition: ease-in-out .3s;
+    
+}
+button:focus{
+    outline: none;
+}
+button:hover{
+    background-color: #ffc93c;
+}
+
+.pagination {
+    padding: 2% 0;
+}
+.casita{
+    color: white;
+    transition: ease-in-out;
+}
+.casita:hover{
+    color: #ffd66b;
+}
